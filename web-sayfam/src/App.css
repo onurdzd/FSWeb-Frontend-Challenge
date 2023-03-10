@@ -1,3 +1,4 @@
+/* RESET CSS !!!! */
 html,
 body,
 div,
@@ -86,6 +87,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -100,17 +102,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,11 +124,16 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* RESET CSS SONU !!!!!!*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 html {
   font-size: 10px;
 }
@@ -140,6 +151,7 @@ html {
 
 .container {
   max-width: 960px;
+  margin: 0 auto;
 }
 
 .header {
@@ -169,7 +181,7 @@ html {
   font-size: 32px;
   line-height: 72px;
   color: #cbf281;
-  padding-top:3.9rem ;
+  padding-top: 3.9rem;
   padding-bottom: 3.9rem;
 }
 
@@ -179,17 +191,128 @@ html {
   line-height: 29px;
   color: #ffffff;
   padding-right: 24rem;
+  margin-top: 3.6rem;
 }
 
-.header-box-1 button{
+.header-box-1 button {
   font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 28px;
-color: #3730A3;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3730A3;
+  margin-right: 1.2rem;
+  margin-top: 3.6rem;
+}
+
+.header-box-1 button:first-child img {
+  width: 2.5rem;
+  height: 2.6rem;
+}
+
+.header-box-1 button:last-child img {
+  width: 2.4rem;
+  height: 2.5rem;
+}
+
+.header-box-1 button span {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .header-box-2 {
   flex: 0.31;
   background-color: #cbf281;
+}
+
+.header-box-2-image {
+  padding-top: 14.8rem;
+  padding-bottom: 14.8rem;
+}
+
+.header-box-2 img {
+  width: 78.5%;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.skills h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.01em;
+  color: #4832D3;
+  font-family: 'Inter';
+}
+
+.skills-box-1 {
+  padding-left: 23.9rem;
+  padding-top: 8.4rem;
+  padding-right: 14.5rem;
+}
+
+.skills-box-2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4.9rem;
+}
+
+.skills-box-logos {
+  display: flex;
+  align-items: center;
+  min-width: 43.2rem;
+  padding-top: 3.5rem;
+}
+
+.skills-box-logos h2 {
+  padding-right: 14.5rem;
+  padding-left: 2.4rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  color: #777777;
+}
+
+.skills img {
+  width: 12rem;
+}
+
+.profile {
+  background-color: #4731D3;
+  margin-top: 9.6rem;
+}
+
+.profile h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #CBF281;
+  padding-top: 8.4rem;
+}
+
+.profile h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.profile-box{
+  display: flex;
 }

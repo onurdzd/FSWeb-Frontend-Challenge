@@ -1,4 +1,7 @@
 import React from "react";
+import imgHero from "../images/hero-right.png"
+import github from "../images/github.svg"
+import linkedin from "../images/LinkedIn.svg"
 
 const Header = () => {
   return (
@@ -12,13 +15,16 @@ const Header = () => {
             great user experiences.
           </p>
           <div className="header-box-1-button">
-          <button>Github</button>
-          <button>LinkedIn</button>
+          <button><img src={github} alt=""></img><span>Github</span></button>
+          <button><img src={linkedin} alt=""></img><span>Linkedin</span></button>
           </div>
-
         </div>
       </div>
-      <div className="header-box-2"></div>
+      <div className="header-box-2">
+        <div className="header-box-2-image">
+        <img alt="hero-right" src={imgHero}></img>
+        </div>
+      </div>
     </div>
   );
 };
