@@ -4,15 +4,24 @@ import Header from './Components/Header';
 import Profile from './Components/Profile';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
+import {Route, Switch} from "react-router-dom"
+import ContactForm from './Components/ContactForm';
 
 function App() {
   return (
     <div className="app-container">
-      <Header ></Header>
-      <Skills></Skills>
-      <Profile></Profile>
-      <Projects></Projects>
-      <Footer></Footer>
+      <Switch>
+      <Route exact path="/">
+      <Header/ >
+      <Skills/>
+      <Profile/>
+      <Projects/>
+      <Footer/>
+      </Route>
+      <Route exact path="/form">
+        <ContactForm/>
+      </Route>
+      </Switch>
     </div>
   );
 }

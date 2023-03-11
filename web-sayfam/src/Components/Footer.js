@@ -2,8 +2,10 @@ import React from "react";
 import "./Footer.css";
 import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
+import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
+    const history = useHistory()
   return (
     <div className="footer">
       <div className="footer-container">
@@ -14,7 +16,7 @@ const Footer = () => {
         </p>
         <a href="mailto:onurerkdizdar@gmail.com">onurerkdizdar@gmail.com</a>
         <div className="footer-iletisim">
-          <button>İletişim Formu</button>
+          <button onClick={()=>history.push("/form")}>İletişim Formu</button>
         </div>
         <div className="footer-container-img">
           <div>
