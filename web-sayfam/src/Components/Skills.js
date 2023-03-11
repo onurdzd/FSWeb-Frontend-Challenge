@@ -8,7 +8,7 @@ import reduxLogo from "../images/redux.svg";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills container">
       <div className="skills-box-1">
         <h1>Skills</h1>
       </div>
