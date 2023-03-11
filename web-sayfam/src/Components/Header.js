@@ -2,6 +2,7 @@ import React from "react";
 import imgHero from "../images/hero-right.jpg";
 import github from "../images/github.svg";
 import linkedin from "../images/LinkedIn.svg";
+import "./Header.css"
 
 const Header = () => {
   return (

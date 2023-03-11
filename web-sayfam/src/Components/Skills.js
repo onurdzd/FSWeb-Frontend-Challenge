@@ -5,6 +5,7 @@ import figmaLogo from "../images/figma.svg";
 import vsLogo from "../images/vscodes.svg";
 import reactLogo from "../images/react.svg";
 import reduxLogo from "../images/redux.svg";
+import "./Skills.css"
 
 const Skills = () => {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../images/profile_img.jpg";
+import "./Profile.css"
 
 const Profile = () => {
   return (

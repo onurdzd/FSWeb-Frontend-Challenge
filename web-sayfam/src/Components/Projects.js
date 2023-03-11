@@ -1,18 +1,20 @@
 import React from "react";
+import "./Projects.css";
+import Project from "./Project";
+import projeData from "./ProjectsData"
 
 const Projects = () => {
+
   return (
     <div className="projects">
       <div className="container">
         <h1>Projects</h1>
-        <div className="projects-box-1">
-          <div><img alt="project-img"></img></div>
-          <div></div>
-        </div>
-        <div className="projects-box-2">
-          <div><img alt="project-img"></img></div>
-          <div></div>
-        </div>
+        {projeData.map((proje,key)=>(
+            <div key={proje.id}>
+            <Project proje={proje}></Project>
+            </div>
+        ))}
+        
       </div>
     </div>
   );
