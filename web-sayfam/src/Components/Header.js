@@ -2,7 +2,7 @@ import React from "react";
 import imgHero from "../images/hero-right.jpg";
 import github from "../images/github.svg";
 import linkedin from "../images/LinkedIn.svg";
-import "./Header.css"
+import "./Header.css";
 
 const Header = () => {
   return (
@@ -16,14 +16,18 @@ const Header = () => {
             great user experiences.
           </p>
           <div className="header-box-1-button">
-            <button>
-              <img src={github} alt=""></img>
-              <span>Github</span>
-            </button>
-            <button>
-              <img src={linkedin} alt=""></img>
-              <span>Linkedin</span>
-            </button>
+            <div>
+              <button className="header-box-1-button">
+                <img src={github} alt=""></img>
+                <span>Github</span>
+              </button>
+            </div>
+            <div>
+              <button className="header-box-1-button">
+                <img src={linkedin} alt=""></img>
+                <span>Linkedin</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
