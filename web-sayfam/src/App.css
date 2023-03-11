@@ -167,6 +167,11 @@ html {
   padding-left: 24rem;
 }
 
+.header-box-1-text {
+  width: 53rem;
+  height: 37.5rem;
+}
+
 .header-box-1 h1 {
   font-family: 'Inter';
   font-style: normal;
@@ -233,14 +238,15 @@ html {
 .header-box-2-image {
   padding-bottom: 14.8rem;
   position: absolute;
-  padding-top: 6rem;
+  padding-top: 30rem;
 }
 
 .header-box-2 img {
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
   position: absolute;
   left: -20rem;
+  top: 51%;
+  border-radius: 1rem;
 }
 
 .skills {
@@ -313,15 +319,71 @@ html {
   padding-top: 8.4rem;
 }
 
-.profile h2 {
+.profile-box {
+  display: flex;
+  padding-bottom: 9.6rem;
+}
+
+.profile-box-container {
+  width: 30rem;
+  margin: 0 auto;
+  padding-top: 3.3rem;
+}
+
+.profile-box h2 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 3rem;
   line-height: 100%;
   color: #FFFFFF;
+  padding-bottom: 2.4rem;
 }
 
-.profile-box{
+.profile-box-1-detay {
   display: flex;
+  padding-bottom: 2rem;
+}
+
+.profile-box p {
+  padding-right: 1rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #02051E;
+  width: 11.3rem;
+}
+
+.profile-box-1 span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  width: 18rem;
+}
+
+.profile-box-2{
+  text-align: center;
+}
+
+.profile-box-2 img {
+  width: 20rem;
+  border-radius: 3rem;
+  padding-right: 1.5rem;
+}
+
+.profile-box-3 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 100%;
 }
