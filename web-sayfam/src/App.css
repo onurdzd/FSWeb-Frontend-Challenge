@@ -274,7 +274,7 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 4.9rem;
-  justify-content:space-between
+  justify-content: space-between
 }
 
 .skills-box-logos {
@@ -363,7 +363,7 @@ html {
   width: 18rem;
 }
 
-.profile-box-2{
+.profile-box-2 {
   text-align: center;
 }
 
@@ -381,4 +381,27 @@ html {
   line-height: 150%;
   color: #FFFFFF;
   width: 100%;
+}
+
+.projects {
+  background-color: #CBF281;
+}
+
+.projects h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #4731D3;
+  padding-top: 8.4rem;
+}
+
+.projects-box-1 {
+  display: flex;
+}
+
+.projects-box-2 {
+  display: flex;
 }
