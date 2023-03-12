@@ -7,7 +7,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 4.8rem;
     line-height: 100%;
     letter-spacing: 0.01em;
     color: #4731D3;
@@ -67,6 +67,9 @@
     width: 7.4rem;
     height: 3.1rem;
     margin-right: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects-box-text-link {
@@ -82,5 +85,18 @@
     line-height: 1.6rem;
     text-decoration-line: underline;
     color: #120B39;
-    width: 9.7rem;
 }
+
+@media screen and (max-width: 380px){
+    .projects-box {
+        width: 81rem;
+    }
+
+    .projects h1{
+        padding-top: 5rem;
+    }
+
+    .projects-box p {
+        font-size: 1.9rem;
+    }
+  }

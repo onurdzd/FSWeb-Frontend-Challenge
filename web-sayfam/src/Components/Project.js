@@ -4,7 +4,6 @@ const Project = (props) => {
   const { proje, aciklama, konular, linkler, imageLink } = props.proje;
 
   return (
-    <div>
       <div className="projects-box">
         <div >
           <img className="projects-box-img" src={imageLink} alt="project-img"></img>
@@ -30,7 +29,6 @@ const Project = (props) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -29,11 +29,10 @@
     color: #120B39;
 }
 
-
 .footer a {
     font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 2rem;
+    line-height: 2.4rem;
     letter-spacing: 0.05em;
     text-decoration-line: underline;
     color: #4731D3;
@@ -59,3 +58,13 @@
     gap: 2.4rem;
     justify-content: center;
 }
+
+@media screen and (max-width: 380px){
+    .footer {
+        padding-bottom: 5rem;
+    }
+
+    .footer h1 {
+        padding-top:5rem;
+    }
+  }

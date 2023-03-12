@@ -140,7 +140,7 @@ html {
 
 * {
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 
 .app-container {
@@ -155,4 +155,11 @@ html {
 }
 
 
-
+@media screen and (max-width: 380px){
+  .app-container{
+    width: 90rem;
+  }
+  .container {
+    width:85rem;
+  }
+}

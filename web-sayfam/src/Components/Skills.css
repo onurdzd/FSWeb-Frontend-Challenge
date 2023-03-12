@@ -21,7 +21,6 @@
   
   .skills-box-2 {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     padding-top: 4.9rem;
     justify-content: space-between
@@ -47,4 +46,22 @@
   
   .skills img {
     width: 12rem;
+  }
+
+  @media screen and (max-width: 380px){
+    .skills-box-1 {
+      padding-right: 5rem;
+      padding-top: 5rem;
+    }
+
+    .skills-box-2 {
+      padding-top: 2rem;
+      justify-content: flex-start;
+    }
+
+    .skills-box-logos {
+      width: 23rem;
+      margin-right: 11rem;
+    }
+
   }

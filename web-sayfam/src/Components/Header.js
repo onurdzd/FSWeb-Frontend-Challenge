@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="header ">
+    <div className="header">
       <div className="header-box-1">
         <h2>Onur Erk</h2>
         <div className="header-box-1-text">
