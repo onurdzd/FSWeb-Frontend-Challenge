@@ -144,22 +144,23 @@ html {
 }
 
 .app-container {
-  width: 144rem;
+  width: 100%;
   margin: 0 auto;
   max-width: 1440px;
 }
 
 .container {
-  width: 96.8rem;
+  width: 100%;
   margin: 0 auto;
+  max-width: 960px;
 }
 
 
-@media screen and (max-width: 380px){
+/* @media screen and (max-width: 380px){
   .app-container{
     width: 90rem;
   }
   .container {
     width:85rem;
   }
-}
+} */

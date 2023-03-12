@@ -1,5 +1,5 @@
 .header {
-    height: 67.1rem;
+    max-height: 671px;
     display: flex;
     font-family: 'Inter';
     font-style: normal;
@@ -8,11 +8,11 @@
   .header-box-1 {
     background-color: #4731d3;
     flex: 0.69;
-    padding-left: 24rem;
+    padding-left: 16%;
   }
   
   .header-box-1-text {
-    width: 53rem;
+    width:63.3%;
   }
   
   .header-box-1 h1 {
@@ -27,8 +27,8 @@
     font-size: 3.2rem;
     line-height: 7.2rem;
     color: #cbf281;
-    padding-top: 3.9rem;
-    padding-bottom: 11.4rem;
+    padding-top: 5.8%;
+    padding-bottom: 16,45%;
   }
   
   .header-box-1 p {
@@ -36,13 +36,18 @@
     font-size: 2.4rem;
     line-height: 2.9rem;
     color: #ffffff;
-    margin-top: 3.6rem;
+    margin-top: 5.36%;
   }
 
   .header-box-1-button{
     display: flex;
     align-items: center;
-    margin-right: 1.2rem;
+    margin-right: 12.2%;
+    margin-bottom: 22%;
+  }
+
+  .header-box-1 img{
+    width: 26%;
   }
   
   .header-box-1 button {
@@ -50,9 +55,10 @@
     font-size: 1.8rem;
     line-height: 2.8rem;
     color: #3730A3;
-    margin-top: 3.6rem;
+    margin-top: 26.15%;
     border-radius: 1rem;
     display: flex;
+    width: 95%;
   }
   
   .header-box-1 button span {
@@ -60,6 +66,7 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 0.5rem;
+    width: 100%;
   }
   
   .header-box-2 {
@@ -69,42 +76,69 @@
   }
   
   .header-box-2-image {
-    padding-bottom: 14.8rem;
+    padding-bottom: 22%;
     position: absolute;
-    padding-top: 30rem;
+    padding-top: 44%;
+    width: 100%;
   }
   
   .header-box-2 img {
-    width: 40rem;
+    width: 100%;
     position: absolute;
-    left: -20rem;
-    top: 51%;
+    left: -50%;
+    top: 50%;
     border-radius: 1rem;
   }
 
-@media screen and (max-width: 380px){
-  .header {
-    height: 57rem;
-  }
 
-  .header-box-1 {
-    padding-left: 5rem;
-    flex: 0.75;
+@media (365px < width< 1162px) {
+  .header-box-1 h1 {
+    font-size: 4rem;
   }
-
+  
   .header-box-1 h2 {
-    padding-bottom: 5rem;
+    font-size: 2.5rem;
   }
-
-  .header-box-2 {
-    flex: 0.25;
+  
+  .header-box-1 p {
+    font-size: 2rem;
   }
-
-  .header-box-1-text {
-    width: 50rem;
+ .header-box-1 button {
+    font-size: 1.3rem;
   }
+}
 
-  .header-box-2 img {
-    width: 30rem;
+@media (365px < width< 860px) {
+  .header-box-1 h1 {
+    font-size: 3rem;
+  }
+  
+  .header-box-1 h2 {
+    font-size: 2rem;
+  }
+  
+  .header-box-1 p {
+    font-size: 1.5rem;
+  }
+ .header-box-1 button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .header-box-1 h1 {
+    font-size: 2rem;
+  }
+  
+  .header-box-1 h2 {
+    font-size: 1.6rem;
+  }
+  
+  .header-box-1 p {
+    font-size: 1.3rem;
+  }
+ .header-box-1 button {
+    font-size: 1rem;
   }
 } 
+
