@@ -17,6 +17,7 @@
   .profile-box {
     display: flex;
     padding-bottom: 9.6rem;
+    justify-content: space-between;
   }
   
   .profile-box-container {
