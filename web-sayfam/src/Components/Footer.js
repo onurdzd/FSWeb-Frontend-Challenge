@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import instagram from "../images/instagram.svg";
 import twitter from "../images/twitter.svg";
+import qrCode from "../images/qr-code.svg"
 import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
@@ -26,6 +27,9 @@ const Footer = () => {
             <img src={twitter} alt="footer-logos"></img>
           </div>
         </div>
+        <div className="qrCode">
+            <img src={qrCode} alt="footer-logos"></img>
+          </div>
       </div>
     </div>
   );

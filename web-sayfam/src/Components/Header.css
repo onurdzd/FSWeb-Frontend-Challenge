@@ -86,6 +86,7 @@
   border-radius: 2rem;
 }
 
+
 @media ( width< 1162px) {
   .header-box{
     background: linear-gradient(to right,
