@@ -3,13 +3,14 @@
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    padding-bottom: 8rem;
+    padding-bottom: 8.3%;
 }
 
 .footer-container {
-    width: 48.3rem;
+    width: 50%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2.4rem;
 }
@@ -19,7 +20,7 @@
     font-size: 4.8rem;
     line-height: 7.2rem;
     color: #4731D3;
-    padding-top: 8.4rem;
+    padding-top: 8.75%;
 }
 
 .footer p {
@@ -38,7 +39,7 @@
     color: #4731D3;
 }
 
-.footer-iletisim button{
+.footer-iletisim button {
     padding: 1rem;
     font-size: 2rem;
     font-weight: 800;
@@ -48,23 +49,71 @@
     cursor: pointer;
 }
 
-.footer-iletisim :active{
+.footer-iletisim :active {
     background-color: #ffffff;
-    color:#4731D3;
+    color: #4731D3;
 }
 
-.footer-container-img{
-    display:flex;
+.footer-container-img {
+    display: flex;
     gap: 2.4rem;
     justify-content: center;
 }
 
-@media screen and (max-width: 380px){
-    .footer {
-        padding-bottom: 5rem;
+@media (365px < width< 1162px) {
+    .footer h1 {
+        font-size: 4rem;
+        line-height: 4rem;
     }
 
-    .footer h1 {
-        padding-top:5rem;
+    .footer p {
+        font-size: 2.2rem;
     }
-  }
+
+    .footer a {
+        font-size: 1.8rem;
+    }
+
+    .footer-iletisim button {
+        font-size: 1.8rem;
+    }
+}
+
+@media (365px < width< 860px) {
+    .footer h1 {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .footer p {
+        font-size: 2rem;
+    }
+
+    .footer a {
+        font-size: 1.7rem;
+    }
+
+    .footer-iletisim button {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footer h1 {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+
+    .footer p {
+        font-size: 1.7rem;
+    }
+
+    .footer a {
+        font-size: 1.5rem;
+        letter-spacing: 0;
+    }
+
+    .footer-iletisim button {
+        font-size: 1.4rem;
+    }
+}

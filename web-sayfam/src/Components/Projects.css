@@ -1,17 +1,17 @@
 .projects {
     background-color: #CBF281;
     padding-bottom: 4.8rem;
+    font-family: 'Inter';
+    font-style: normal;
 }
 
 .projects h1 {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 4.8rem;
     line-height: 100%;
     letter-spacing: 0.01em;
     color: #4731D3;
-    padding-top: 8.4rem;
+    padding-top: 8.75%;
 }
 
 .projects-box {
@@ -19,25 +19,29 @@
     background-color: #FFFFFF;
     border-radius: 1rem;
     margin-bottom: 3.6rem;
-    margin-top: 2.7rem;
+    margin-top: 2.8%;
     overflow: hidden;
 }
 
-.projects-box-img{
+.projects-box-img {
     scale: 1.01;
+    width: 150%;
+}
+
+.projects-box-img img {
+    scale: 1.01;
+    width: 100%;
 }
 
 .projects-box-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 4.8rem;
+    padding-left: 5%;
     gap: 2.4rem;
 }
 
 .projects-box h2 {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 3.2rem;
     line-height: 100%;
@@ -45,13 +49,12 @@
 }
 
 .projects-box p {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 125%;
     color: #383838;
     padding-top: 2.4rem;
+    padding-right: 3rem;
 }
 
 .projects-box-text-button {
@@ -60,12 +63,12 @@
 
 .projects-box button {
     background: #4731D3;
-    border-radius: 23px;
+    border-radius: 2.3rem;
     letter-spacing: -0.05em;
     color: #FFFFFF;
-    padding: 8px 18px 9px;
-    width: 7.4rem;
-    height: 3.1rem;
+    padding: 0.8rem 1.8rem 0.9rem;
+    width: 93%;
+    height: 93%;
     margin-right: 0.6rem;
     display: flex;
     align-items: center;
@@ -78,25 +81,123 @@
 
 .projects-box-text-link a {
     margin-right: 3rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
     text-decoration-line: underline;
     color: #120B39;
 }
 
-@media screen and (max-width: 380px){
-    .projects-box {
-        width: 81rem;
+@media (width< 1162px) {
+    .container {
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .projects h1{
-        padding-top: 5rem;
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-box {
+        margin: 0 auto;
+        width: 60%;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .projects-box button {
+        padding: 0.5rem;
+        margin: 0 1.2rem;
+    }
+
+    .projects-box-text {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .projects-box-img {
+        scale: 1.01;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .projects-box-text-button {
+        justify-content: center;
+    }
+
+    .projects-box-text-link {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .projects h1 {
+        font-size: 4rem;
+    }
+
+    .projects-box h2 {
+        font-size: 2.8rem;
     }
 
     .projects-box p {
-        font-size: 1.9rem;
+        font-size: 1.4rem;
+        padding-right: 0;
     }
-  }
+
+    .projects-box-text-link a {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (365px < width< 860px) {
+    .projects h1 {
+        font-size: 3rem;
+    }
+
+    .projects-box h2 {
+        font-size: 2.4rem;
+    }
+
+    .projects-box p {
+        font-size: 1.3rem;
+    }
+
+    .projects-box-text-link a {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .projects-box {
+        width: 80%;
+    }
+
+    .projects h1 {
+        font-size: 2.3rem;
+    }
+
+    .projects-box h2 {
+        font-size: 2rem;
+    }
+
+    .projects-box p {
+        font-size: 1.2rem;
+    }
+
+    .projects-box-text-link a {
+        font-size: 1.2rem;
+    }
+
+    .projects-box button {
+        padding: 0.5rem;
+        margin: 0 0.2rem;
+    }
+
+    .projects-box-text-link {
+        width: 17rem;
+    }
+}

@@ -8,13 +8,14 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="container">
-        <h1>Projects</h1>
+        <h1>Projelerim</h1>
+        <div className="project">
         {projeData.map((proje,key)=>(
             <div key={proje.id}>
             <Project proje={proje}></Project>
             </div>
         ))}
-        
+        </div>
       </div>
     </div>
   );

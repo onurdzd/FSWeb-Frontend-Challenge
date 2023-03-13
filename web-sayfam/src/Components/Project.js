@@ -5,8 +5,8 @@ const Project = (props) => {
 
   return (
       <div className="projects-box">
-        <div >
-          <img className="projects-box-img" src={imageLink} alt="project-img"></img>
+        <div className="projects-box-img">
+          <img src={imageLink} alt="project-img"></img>
         </div>
         <div className="projects-box-text">
           <div>

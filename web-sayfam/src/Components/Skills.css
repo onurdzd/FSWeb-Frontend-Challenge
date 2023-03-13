@@ -1,67 +1,96 @@
 .skills {
-    display: flex;
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  margin: 0 auto;
+}
+
+.skills h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  letter-spacing: 0.01em;
+  color: #4832D3;
+}
+
+.skills-box-1 {
+  padding-top: 8.75%;
+  padding-right: 15.1%;
+}
+
+.skills-box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5.1%;
+  justify-content: space-between
+}
+
+.skills-box-logos {
+  display: flex;
+  align-items: center;
+  width: 41.5%;
+  padding-top: 3.5rem;
+}
+
+.skills-box-logos h2 {
+  padding-left: 2.4rem;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.skills img {
+  width: 41.5%;
+}
+
+@media (width< 1162px) {
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skills-box-1 {
+    padding-right: 0;
+  }
+
+  .skills-box-2 {
     justify-content: center;
   }
-  
+
   .skills h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4.8rem;
-    line-height: 5.8rem;
-    letter-spacing: 0.01em;
-    color: #4832D3;
-    font-family: 'Inter';
+    font-size: 4rem;
   }
-  
-  .skills-box-1 {
-    padding-top: 8.4rem;
-    padding-right: 14.5rem;
-  }
-  
-  .skills-box-2 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 4.9rem;
-    justify-content: space-between
-  }
-  
+
   .skills-box-logos {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 29rem;
-    padding-top: 3.5rem;
+    gap: 1rem;
   }
-  
+
   .skills-box-logos h2 {
-    padding-left: 2.4rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.4rem;
-    line-height: 150%;
-    text-transform: uppercase;
-    color: #777777;
+    font-size: 3rem;
+    padding-left: 0;
   }
-  
-  .skills img {
-    width: 12rem;
+}
+
+@media (365px < width< 860px) {
+  .skills h1 {
+    font-size: 3.5rem;
   }
 
-  @media screen and (max-width: 380px){
-    .skills-box-1 {
-      padding-right: 5rem;
-      padding-top: 5rem;
-    }
-
-    .skills-box-2 {
-      padding-top: 2rem;
-      justify-content: flex-start;
-    }
-
-    .skills-box-logos {
-      width: 23rem;
-      margin-right: 11rem;
-    }
-
+  .skills-box-logos h2 {
+    font-size: 2.2rem;
   }
+}
+
+@media screen and (max-width: 380px) {
+  .skills h1 {
+    font-size: 2rem;
+  }
+
+  .skills-box-logos h2 {
+    font-size: 1.2rem;
+  }
+}

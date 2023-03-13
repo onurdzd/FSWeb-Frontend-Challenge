@@ -1,6 +1,10 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 import "./ContactForm.css";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+import { useHistory } from "react-router-dom";
 
 const ContactForm = () => {
   const {
@@ -12,7 +16,11 @@ const ContactForm = () => {
   const onSubmit = (data) => {
     console.log(data);
     reset();
+    notify();
   };
+
+  const notify = () => toast("Mesajınız iletildi!");
+  const history = useHistory();
 
   return (
     <div className="contactForm">
@@ -102,9 +110,24 @@ const ContactForm = () => {
             <div className="contactForm-button">
               <button type="submit">Gönder</button>
             </div>
+            <div className="contactForm-button-2">
+              <button onClick={()=>history.push("/")}>Ana Sayfa</button>
+            </div>
           </div>
         </form>
       </div>
+      <ToastContainer
+        position="top-right"
+        autoClose={1500}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </div>
   );
 };

@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div className="skills container">
       <div className="skills-box-1">
-        <h1>Skills</h1>
+        <h1>Yetenekler</h1>
       </div>
       <div className="skills-box-2">
         <div className="skills-box-logos">
