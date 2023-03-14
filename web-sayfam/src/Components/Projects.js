@@ -26,13 +26,13 @@ const Projects = () => {
         <div className="project">
           {hata ? (
             <div className="projects-hata">Proje datası alınamadı {hata}</div>
-          ) : (
+          ) : data.length!==0 ? (
             data.map((proje) => (
               <div key={proje.id}>
                 <Project proje={proje}></Project>
               </div>
-            ))
-          )}
+            )) ) : <div className="projects-hata">Projeler yükleniyor {hata}</div>
+         }
         </div>
       </div>
     </div>
