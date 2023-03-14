@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-container">
         <h1>Bana ulaşın</h1>
         <p>
-          İletişim için,aşağıdaki mail adresi veya form üzerinden bana
+          Aşağıdaki mail adresi veya form üzerinden bana
           ulaşabilirsiniz!
         </p>
         <a href="mailto:onurerkdizdar@gmail.com">onurerkdizdar@gmail.com</a>
