@@ -29,7 +29,6 @@
   color: #cbf281;
 }
 
-
 .header-box-1 h2 {
   font-weight: 700;
   font-size: 3.2rem;
@@ -86,7 +85,6 @@
   border-radius: 2rem;
 }
 
-
 @media ( width< 1162px) {
   .header-box{
     background: linear-gradient(to right,
@@ -98,9 +96,18 @@
     justify-content: center;
   }
 
+  .header-box-1-text {
+   width: 100%;
+   padding:0 10%;
+  }
+
   .header-box-2 {
-    width: 50%;
+    width: 67%;
     padding-bottom: 2rem;
+  }
+
+  .header-box-2 img {
+    width:70%;
   }
 
   .header-box-1-button{

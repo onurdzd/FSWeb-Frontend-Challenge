@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <h1>Bana ulaşmak için</h1>
+        <h1>Bana ulaşın</h1>
         <p>
           İletişim için,aşağıdaki mail adresi veya form üzerinden bana
           ulaşabilirsiniz!
