@@ -8,16 +8,21 @@ import { Route, Switch } from "react-router-dom";
 import ContactForm from "./Components/ContactForm";
 
 function App() {
-
   return (
     <div className="app-container">
       <Switch>
         <Route exact path="/">
-          <Header />
-          <Skills />
-          <Profile />
-          <Projects />
-          <Footer />
+          <header>
+            <Header />
+          </header>
+          <main>
+            <Skills />
+            <Profile />
+            <Projects />
+          </main>
+          <footer>
+            <Footer />
+          </footer>
         </Route>
         <Route exact path="/form">
           <ContactForm />
