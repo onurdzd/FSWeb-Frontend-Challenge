@@ -123,6 +123,8 @@
 
   .header-box-1 button {
     font-size: 1.3rem;
+    min-width: 0px;
+    padding: 0.4rem;
   }
 }
 
@@ -162,7 +164,18 @@
     font-size: 1.3rem;
   }
 
+  .header-box-1-button {
+    gap: 0.3rem;
+  }
+
   .header-box-1 button {
     font-size: 1rem;
+    min-width: 72px;
+    padding: 0;
+  }
+
+  .header-box-1 img {
+    margin-right: 0.2rem;
+    scale: 0.90;
   }
 }

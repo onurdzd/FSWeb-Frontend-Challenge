@@ -24,7 +24,7 @@ const Header = () => {
                     }
                   >
                     <img src={github} alt=""></img>
-                    Github
+                      Github
                   </button>
                   <button
                     onClick={() =>
