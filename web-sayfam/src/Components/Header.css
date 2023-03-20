@@ -61,8 +61,9 @@
   margin-top: 20%;
   border-radius: 0.5rem;
   cursor: pointer;
-  padding: 1rem;
+  padding: 0.7rem;
   margin-bottom: 5%;
+  min-width: 122.78px;
 }
 
 .header-box-1 img {
