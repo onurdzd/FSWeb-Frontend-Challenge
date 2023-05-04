@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import instagram from "../images/instagram.svg";
-import twitter from "../images/twitter.svg";
-import qrCode from "../images/qr-code.svg"
+import instagram from "../../images/instagram.svg";
+import twitter from "../../images/twitter.svg";
+import qrCode from "../../images/qr-code.svg"
 import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
@@ -10,14 +10,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <h1>Bana ulaşın</h1>
+        <h1>Contact me</h1>
         <p>
-          Aşağıdaki mail adresi veya form üzerinden bana
-          ulaşabilirsiniz!
+          Contact me with following mail or Contact Form!
         </p>
         <a href="mailto:onurerkdizdar@gmail.com">onurerkdizdar@gmail.com</a>
         <div className="footer-iletisim">
-          <button onClick={()=>history.push("/form")}>İletişim Formu</button>
+          <button onClick={()=>history.push("/form")}>Contact Form</button>
         </div>
         <div className="footer-container-img">
           <div>

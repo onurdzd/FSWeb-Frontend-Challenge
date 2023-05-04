@@ -1,17 +1,17 @@
 import React from "react";
-import jsLogo from "../images/javascript.svg";
-import nodeLogo from "../images/node.svg";
-import figmaLogo from "../images/figma.svg";
-import vsLogo from "../images/vscodes.svg";
-import reactLogo from "../images/react.svg";
-import reduxLogo from "../images/redux.svg";
+import jsLogo from "../../images/javascript.svg";
+import nodeLogo from "../../images/node.svg";
+import figmaLogo from "../../images/figma.svg";
+import vsLogo from "../../images/vscodes.svg";
+import reactLogo from "../../images/react.svg";
+import reduxLogo from "../../images/redux.svg";
 import "./Skills.css"
 
 const Skills = () => {
   return (
     <div className="skills container">
       <div className="skills-box-1">
-        <h1>Yetenekler</h1>
+        <h1>Skills</h1>
       </div>
       <div className="skills-box-2">
         <div className="skills-box-logos">

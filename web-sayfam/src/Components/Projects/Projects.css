@@ -3,6 +3,8 @@
     padding-bottom: 4.8rem;
     font-family: 'Inter';
     font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects h1 {
@@ -25,7 +27,8 @@
 
 .projects-box-img {
     scale: 1.01;
-    width: 150%;
+    width: 40%;
+    max-height: 274.41px;
 }
 
 .projects-box-img img {
@@ -39,6 +42,7 @@
     justify-content: center;
     padding-left: 5%;
     gap: 2.4rem;
+    width: 60%;
 }
 
 .projects-box h2 {
@@ -86,6 +90,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 0.1rem;
 }
 
 .projects-box-text-link {
@@ -116,7 +121,7 @@
         margin: 0 auto;
         width: 60%;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         gap: 1rem;
         margin-top: 5%;
         padding-bottom: 5%;
@@ -140,6 +145,7 @@
         scale: 1.01;
         width: 75%;
         margin: 0 auto;
+        max-height: 100%;
     }
 
     .projects-box-text-link {
@@ -152,6 +158,7 @@
     }
 
     .projects-box h2 {
+        padding-top: 0.5rem;
         font-size: 2.8rem;
     }
 
@@ -180,6 +187,7 @@
     }
 
     .projects-box h2 {
+        padding-top: 0.5rem;
         font-size: 2.4rem;
     }
 
@@ -202,6 +210,7 @@
     }
 
     .projects-box h2 {
+        padding-top: 0.2rem;
         font-size: 2rem;
     }
 
@@ -215,10 +224,7 @@
 
     .projects-box button {
         padding: 0.5rem;
-        margin: 0 0.2rem;
     }
 
-    .projects-box-text-link {
-        width: 17rem;
-    }
+  
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import imgHero from "../images/hero-right.jpg";
-import github from "../images/github.png";
-import linkedin from "../images/linkedin.png";
+import imgHero from "../../images/hero-right.jpg";
+import github from "../../images/github.png";
+import linkedin from "../../images/linkedin.png";
 import "./Header.css";
 
 const Header = () => {
@@ -12,9 +12,9 @@ const Header = () => {
           <div className="header-box-1-text">
             <h2>Onur Erk</h2>
             <div>
-              <h1>I am a Frontend Developer...</h1>
+              <h1>I am a Full Stack Web Developer</h1>
               <p>
-                ...who likes to craft solid and scalable frontend products with
+                ...who likes to craft solid and scalable web products with
                 great user experiences.
               </p>
               <div className="header-box-1-button">

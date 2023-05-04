@@ -2,8 +2,8 @@
   font-family: 'Inter';
   font-style: normal;
   background: linear-gradient(to right,
-      #4731d3 0%,
-      #4731d3 67%,
+      #271f56 0%,
+      #271f56 67%,
       #cbf281 67%,
       #cbf281 100%);
 }
@@ -83,8 +83,8 @@
 @media (width< 1162px) {
   .header-box {
     background: linear-gradient(to right,
-        #4731d3 0%,
-        #4731d3 80%,
+        #271f56 0%,
+        #271f56 80%,
         #cbf281 80%,
         #cbf281 100%);
     flex-direction: column;

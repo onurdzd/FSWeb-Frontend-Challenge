@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <div className="container">
-        <h1>Projelerim</h1>
+        <h1>My Projects</h1>
         <div className="project">
           {hata ? (
             <div className="projects-hata">Proje datası alınamadı {hata}</div>
