@@ -20,8 +20,8 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects">
-      <div className="container">
+    <div className="projects ">
+      <div className="projects container">
         <h1>My Projects</h1>
         <div className="project">
           {hata ? (

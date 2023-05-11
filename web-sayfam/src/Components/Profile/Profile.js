@@ -5,7 +5,7 @@ import "./Profile.css";
 const Profile = () => {
   return (
     <div className="profile">
-      <div className="container">
+      <div className="profile container">
         <h1>Profile</h1>
         <div className="profile-box">
           <div className="profile-box-1 profile-box-container">
