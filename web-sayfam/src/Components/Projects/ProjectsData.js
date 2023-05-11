@@ -1,4 +1,4 @@
-import proje1 from "../../images/project1.jpg";
+import stock from "../../images/stock.jpg";
 import proje2 from "../../images/project2.jpg";
 import pizzaProject from "../../images/Pizza.jpg";
 import gpt from "../../images/gpt.jpg";
@@ -8,7 +8,7 @@ const projects = [
     id: 1,
     proje: "Chat GPT with API",
     aciklama: "Chat GPT request website with API.",
-    konular: ["react","node.js","express.js"],
+    konular: ["react","node.js","express.js","api"],
     linkler: [
       {
         linkIsim: "View Site",
@@ -25,7 +25,7 @@ const projects = [
     id: 2,
     proje: "Pizza Order ",
     aciklama: "Pizza order website with React components.",
-    konular: ["react", "vercel"],
+    konular: ["react", "Responsive Design"],
     linkler: [
       {
         linkIsim: "View Site",
@@ -40,37 +40,37 @@ const projects = [
   },
   {
     id: 3,
-    proje: "Watch List ",
+    proje: "TV Series Watch List with API",
     aciklama: "Create watch list via site.",
-    konular: ["react", "vercel"],
+    konular: ["react", "api" , "Responsive Design"],
     linkler: [
       {
         linkIsim: "View Site",
-        site: "https://redux-watchlist-project.vercel.app/",
+        site: "https://fs-web-s8-film-listesi-challenge.vercel.app/",
       },
       {
         linkIsim: "Github",
-        site: "https://github.com/onurdzd/fsweb-s10g3-redux-watchlist/tree/main",
+        site: "https://github.com/onurdzd/FSWeb-S8-film-listesi-challenge",
       },
     ],
     imageLink: proje2,
   },
   {
     id: 4,
-    proje: "Shopping Cart",
-    aciklama: "You can create shopping cart before order!",
-    konular: ["react", "redux", "vercel"],
+    proje: "Stock News with API",
+    aciklama: "Search stocks for Up-to-date stock news",
+    konular: ["react","node.js","express.js","api"],
     linkler: [
       {
         linkIsim: "View Site",
-        site: "https://react-shopping-cart-test.vercel.app/",
+        site: "https://stock-market-web-api.vercel.app/",
       },
       {
         linkIsim: "Github",
-        site: "https://github.com/onurdzd/fsweb-s11g1-shopping-cart/tree/main",
+        site: "https://github.com/onurdzd/Stock-Market-web-api",
       },
     ],
-    imageLink: proje1,
+    imageLink: stock,
   },
 ];
 
