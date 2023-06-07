@@ -20,22 +20,27 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects ">
-      <div className="projects container">
-        <h1>My Projects</h1>
-        <div className="project">
-          {hata ? (
-            <div className="projects-hata">Proje datası alınamadı {hata}</div>
-          ) : data.length!==0 ? (
-            data.map((proje) => (
+    <div className="projects">
+    <div className="projects container">
+      <h1>My Projects</h1>
+      <div className="project">
+        {hata ? (
+          <div className="projects-hata">Proje datası alınamadı {hata}</div>
+        ) : data.length !== 0 ? (
+          <div className={data.length > 3 ? "projects-scroll" : ""}>
+            {data.map((proje) => (
               <div key={proje.id}>
                 <Project proje={proje}></Project>
               </div>
-            )) ) : <div className="projects-hata">Projeler yükleniyor {hata}</div>
-         }
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="projects-hata">Projeler yükleniyor {hata}</div>
+        )}
       </div>
     </div>
+  </div>
+  
   );
 };
 
