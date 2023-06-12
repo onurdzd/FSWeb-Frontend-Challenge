@@ -13,7 +13,7 @@ const projects = [
     linkler: [
       {
         linkIsim: "View Site",
-        site: "https://github.com/onurdzd/DepremDanisma",
+        site: "https://depremdanismafrontend.onrender.com/",
       },
       {
         linkIsim: "Github",
