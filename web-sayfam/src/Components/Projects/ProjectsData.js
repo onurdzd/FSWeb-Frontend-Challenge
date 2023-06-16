@@ -3,6 +3,7 @@ import proje2 from "../../images/project2.jpg";
 import pizzaProject from "../../images/Pizza.jpg";
 import gpt from "../../images/gpt.jpg";
 import affan from "../../images/affan.svg";
+import yogaBlog from "../../images/yogablog.jpg"
 
 const projects = [
   {
@@ -22,8 +23,25 @@ const projects = [
     ],
     imageLink: affan,
   },
-  {
+   {
     id: 2,
+    proje: "A Yoga Brand Website",
+    aciklama: "Developed with Next.js",
+    konular: ["next.js","responsive design","typescript"],
+    linkler: [
+      {
+        linkIsim: "View Site",
+        site: "https://veiyoga.com/",
+      },
+      {
+        linkIsim: "Github",
+        site: "https://github.com/onurdzd/veiyg",
+      },
+    ],
+    imageLink: yogaBlog,
+  },
+  {
+    id: 3,
     proje: "Chat GPT with API",
     aciklama: "Chat GPT request website with API.",
     konular: ["react","node.js","express.js","api"],
@@ -40,7 +58,7 @@ const projects = [
     imageLink: gpt,
   },
   {
-    id: 3,
+    id: 4,
     proje: "Pizza Order ",
     aciklama: "Pizza order website with React components.",
     konular: ["react", "Responsive Design"],
@@ -57,7 +75,7 @@ const projects = [
     imageLink: pizzaProject,
   },
   {
-    id: 4,
+    id: 5,
     proje: "TV Series Watch List with API",
     aciklama: "Create watch list via site.",
     konular: ["react", "api" , "Responsive Design"],
@@ -74,7 +92,7 @@ const projects = [
     imageLink: proje2,
   },
   {
-    id: 5,
+    id: 6,
     proje: "Stock News with API",
     aciklama: "Search stocks for Up-to-date stock news",
     konular: ["react","node.js","express.js","api"],
