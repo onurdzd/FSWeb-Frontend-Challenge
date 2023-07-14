@@ -4,6 +4,8 @@ import pizzaProject from "../../images/Pizza.jpg";
 import gpt from "../../images/gpt.jpg";
 import affan from "../../images/affan.svg";
 import yogaBlog from "../../images/yogablog.jpg"
+import mcell from "../../images/mcell.png"
+import mcellKapak from "../../images/mcellKapak.jpg"
 
 const projects = [
   {
@@ -42,6 +44,23 @@ const projects = [
   },
   {
     id: 3,
+    proje: "Phone Trailing System",
+    aciklama: "Developed with .NET Windows Form Application",
+    konular: [".Net","C#","Sqlite"],
+    linkler: [
+      {
+        linkIsim: "View Site",
+        site: mcell,
+      },
+      {
+        linkIsim: "Github",
+        site: "https://github.com/onurdzd/mcellWinFormApp",
+      },
+    ],
+    imageLink: mcellKapak,
+  },
+  {
+    id: 4,
     proje: "Chat GPT with API",
     aciklama: "Chat GPT request website with API.",
     konular: ["react","node.js","express.js","api"],
@@ -58,7 +77,7 @@ const projects = [
     imageLink: gpt,
   },
   {
-    id: 4,
+    id: 5,
     proje: "Pizza Order ",
     aciklama: "Pizza order website with React components.",
     konular: ["react", "Responsive Design"],
@@ -75,7 +94,7 @@ const projects = [
     imageLink: pizzaProject,
   },
   {
-    id: 5,
+    id: 6,
     proje: "TV Series Watch List with API",
     aciklama: "Create watch list via site.",
     konular: ["react", "api" , "Responsive Design"],
@@ -92,7 +111,7 @@ const projects = [
     imageLink: proje2,
   },
   {
-    id: 6,
+    id: 7,
     proje: "Stock News with API",
     aciklama: "Search stocks for Up-to-date stock news",
     konular: ["react","node.js","express.js","api"],
