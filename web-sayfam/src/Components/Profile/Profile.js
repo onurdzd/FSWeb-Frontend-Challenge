@@ -12,7 +12,7 @@ const Profile = () => {
             <h2>About</h2>
             <div className="profile-box-1-detay">
               <p>Birth-Date</p>
-              <span>03.04.1991</span>
+              <span>1991</span>
             </div>
             <div className="profile-box-1-detay">
               <p>City</p>
