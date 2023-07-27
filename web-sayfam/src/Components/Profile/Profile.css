@@ -26,6 +26,13 @@
   padding-top: 3.4%;
 }
 
+.profile-box-container-2{
+  min-width: 200px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
 .profile-box h2 {
   font-weight: 500;
   font-size: 3rem;

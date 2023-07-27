@@ -84,9 +84,9 @@
   .header-box {
     background: linear-gradient(to right,
         #211083 0%,
-        #211083 80%,
-        #000000cb 80%,
-        #000000cb 100%);
+        #211083 65%,
+        #2c1794 65%,
+        #1b3894 100%);
     flex-direction: column;
     justify-content: center;
   }
