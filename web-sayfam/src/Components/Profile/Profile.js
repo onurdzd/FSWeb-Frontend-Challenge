@@ -35,9 +35,8 @@ const Profile = () => {
               I have worked in the financial sector for almost 7 years. Due to
               my personal interest in programming, I decided to go into
               development.</p> <br></br><p>
-            I have attended a number of courses and training
-              sessions on coding over the past few years. I am willing to learn
-              and improve myself in both frontend and back-end development. 
+              I am already completed full stack web development course at Workintech company succesfully.Also I have attended some courses about Javascript,HTML,CSS,SQL,.NET,C#,Java,Object Oriented.
+              I am willing to work and improve myself in both frontend and backend development.
             </p>
           </div>
         </div>

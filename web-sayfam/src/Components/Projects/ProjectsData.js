@@ -61,20 +61,20 @@ const projects = [
   },
   {
     id: 4,
-    proje: "Chat GPT with API",
-    aciklama: "Chat GPT request website with API.",
+    proje: "Stock News with API",
+    aciklama: "Search stocks for Up-to-date stock news",
     konular: ["react","node.js","express.js","api"],
     linkler: [
       {
         linkIsim: "View Site",
-        site: "https://react-vite-chatgpt-test.vercel.app/",
+        site: "https://stock-market-web-api.vercel.app/",
       },
       {
         linkIsim: "Github",
-        site: "https://github.com/onurdzd/React-vite-chatgpt",
+        site: "https://github.com/onurdzd/Stock-Market-web-api",
       },
     ],
-    imageLink: gpt,
+    imageLink: stock,
   },
   {
     id: 5,
@@ -112,21 +112,21 @@ const projects = [
   },
   {
     id: 7,
-    proje: "Stock News with API",
-    aciklama: "Search stocks for Up-to-date stock news",
+    proje: "Chat GPT with API",
+    aciklama: "Chat GPT request website with API.",
     konular: ["react","node.js","express.js","api"],
     linkler: [
       {
         linkIsim: "View Site",
-        site: "https://stock-market-web-api.vercel.app/",
+        site: "https://react-vite-chatgpt-test.vercel.app/",
       },
       {
         linkIsim: "Github",
-        site: "https://github.com/onurdzd/Stock-Market-web-api",
+        site: "https://github.com/onurdzd/React-vite-chatgpt",
       },
     ],
-    imageLink: stock,
-  },
+    imageLink: gpt,
+  },  
 ];
 
 export default projects;

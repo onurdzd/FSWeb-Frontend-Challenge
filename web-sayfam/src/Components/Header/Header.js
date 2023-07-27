@@ -12,9 +12,9 @@ const Header = () => {
           <div className="header-box-1-text">
             <h2>Onur Erk</h2>
             <div>
-              <h1>I am a Full Stack Web Developer</h1>
+              <h1>I am a Full Stack Developer</h1>
               <p>
-                ...who likes to craft solid and scalable web products with
+                ...who likes to craft solid and scalable products with
                 great user experiences.
               </p>
               <div className="header-box-1-button">
