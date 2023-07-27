@@ -1,9 +1,9 @@
 .footer {
-    background: #F9F9F9;
+    background: #c0bdbd;
     text-align: center;
     font-family: 'Inter';
     font-style: normal;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .footer-container {
@@ -61,13 +61,18 @@
 }
 
 .qrCode{
-    width: 15%;
+    width: 25%;
   }
   
   .qrCode img{
     width: 100%;
   }
 
+  @media (365px < width ) {
+    .qrCode{
+        width: 50px;
+    }
+  }
 @media (365px < width< 1162px) {
     .footer h1 {
         font-size: 4rem;

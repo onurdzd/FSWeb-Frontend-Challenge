@@ -2,10 +2,10 @@
   font-family: 'Inter';
   font-style: normal;
   background: linear-gradient(to right,
-      #271f56 0%,
-      #271f56 67%,
-      #cbf281 67%,
-      #cbf281 100%);
+      #5236db 0%,
+      #211083 67%,
+      #3059b3 67%,
+      #ffffff 100%);
 }
 
 .header-box {
@@ -26,14 +26,14 @@
   font-weight: 700;
   font-size: 5.4rem;
   line-height: 110%;
-  color: #cbf281;
+  color: #000000cb;
 }
 
 .header-box-1 h2 {
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 7.2rem;
-  color: #cbf281;
+  color: #000000cb;
   padding-top: 6%;
   padding-bottom: 18.5%;
 }
@@ -83,10 +83,10 @@
 @media (width< 1162px) {
   .header-box {
     background: linear-gradient(to right,
-        #271f56 0%,
-        #271f56 80%,
-        #cbf281 80%,
-        #cbf281 100%);
+        #211083 0%,
+        #211083 80%,
+        #000000cb 80%,
+        #000000cb 100%);
     flex-direction: column;
     justify-content: center;
   }

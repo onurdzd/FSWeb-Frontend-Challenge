@@ -1,5 +1,5 @@
 .profile {
-  background-color: #271f56 ;
+  background-color: #3822b1 ;
   font-family: 'Inter';
   font-style: normal;
   margin: 3% auto 0;
@@ -10,7 +10,7 @@
   font-size: 4.8rem;
   line-height: 100%;
   letter-spacing: 0.01em;
-  color: #CBF281;
+  color: #000000cb;
   padding-top: 8.75%;
 }
 
@@ -46,7 +46,7 @@
   font-size: 1.6rem;
   line-height: 150%;
   letter-spacing: 0.01em;
-  color: #CBF281;
+  color: #000000cb;
   width: 11.3rem;
 }
 
