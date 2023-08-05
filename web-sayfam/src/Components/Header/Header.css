@@ -5,7 +5,7 @@
       #5236db 0%,
       #412bbf 67%,
       #3059b3 67%,
-      #ffffff 100%);
+      #b6cce4 100%);
 }
 
 .header-box {
@@ -26,14 +26,14 @@
   font-weight: 700;
   font-size: 5.4rem;
   line-height: 110%;
-  color: #000000cb;
+  color: #ede7e7;
 }
 
 .header-box-1 h2 {
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 7.2rem;
-  color: #000000cb;
+  color: #ede7e7;
   padding-top: 6%;
   padding-bottom: 18.5%;
 }

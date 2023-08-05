@@ -103,6 +103,10 @@ section {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1;
 }
@@ -163,5 +167,38 @@ html {
     width:85rem;
   }
 } */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #051060;
+  color: rgb(255, 255, 255);
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; 
+}
+
+.scroll-to-top.show {
+  display: block;
+}
+
+/* Yukarı ok butonu için özel stil */
+.scroll-to-top::selection {
+  background-color: transparent;
+}
+
+.scroll-to-top:hover {
+  background-color: #333;
+}
+
+@media (width< 365px) {
+  .scroll-to-top {
+    bottom: 10px;
+    right: 10px;
+    padding: 4px 7px;
+  }
+}
 
 

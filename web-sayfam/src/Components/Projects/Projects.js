@@ -20,7 +20,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
     <div className="projects container">
       <h1>My Projects</h1>
       <div className="project">
