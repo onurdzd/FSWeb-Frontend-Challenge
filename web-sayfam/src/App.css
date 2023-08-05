@@ -196,7 +196,7 @@ html {
 @media (width< 365px) {
   .scroll-to-top {
     bottom: 10px;
-    right: 10px;
+    right: 5px;
     padding: 4px 7px;
   }
 }
