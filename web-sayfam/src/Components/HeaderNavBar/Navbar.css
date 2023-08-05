@@ -21,8 +21,15 @@ a:hover{
     color: #ffffff;
 }
 
+a:last-child:hover{
+    background-color:#ffffff;
+    color: #3822b1;
+}
+
 a:last-child{
     border:1px solid black;
+    background-color: #3822b1 ;
+    color: #fbf4f4;
 }
 
 .navbar{
