@@ -11,7 +11,7 @@ const Profile = () => {
           <div className="profile-box-1 profile-box-container">
             <h2>About</h2>
             <div className="profile-box-1-detay">
-              <p>Birth-Date</p>
+              <p>Birth-Year</p>
               <span>1991</span>
             </div>
             <div className="profile-box-1-detay">

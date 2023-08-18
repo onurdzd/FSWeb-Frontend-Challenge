@@ -17,8 +17,6 @@
 .profile-box {
   display: flex;
   padding-bottom: 10%;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .profile-box-container {
@@ -29,8 +27,11 @@
 .profile-box-container-2{
   min-width: 200px;
   width: 100%;
-  padding: 2rem;
-  text-align: center;
+  padding: 2rem 2rem 0 2rem;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 500px;
 }
 
 .profile-box h2 {
@@ -71,9 +72,10 @@
 }
 
 .profile-box-2 img {
-  width: 80%;
   border-radius: 3rem;
   padding-right: 1.5rem;
+  max-width: 300px;
+  max-height: 350px;
 }
 
 .profile-box-3 p {
