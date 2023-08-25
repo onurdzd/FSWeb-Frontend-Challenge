@@ -14,6 +14,7 @@
     letter-spacing: 0.01em;
     color: #4832D3;
     padding-top: 8.75%;
+    padding-bottom: 1rem;
 }
 
 .projects-scroll {
@@ -108,10 +109,10 @@
 }
 
 .projects-box button {
-    background: #4731D3;
+    background: #d3e2ea;
     border-radius: 2.3rem;
     letter-spacing: -0.05em;
-    color: #FFFFFF;
+    color: black;
     padding: 0.8rem 2rem 0.9rem;
     display: flex;
     align-items: center;
@@ -128,7 +129,6 @@
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 1.6rem;
-    text-decoration-line: underline;
     color: #120B39;
 }
 

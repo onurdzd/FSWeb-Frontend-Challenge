@@ -6,6 +6,8 @@ import affan from "../../images/affan.svg";
 import yogaBlog from "../../images/yogablog.jpg"
 import mcell from "../../images/mcell.png"
 import mcellKapak from "../../images/mcellKapak.jpg"
+import twitter1 from "../../images/twitter1.jpg"
+import twitter2 from "../../images/twitter2.jpg"
 
 const projects = [
   {
@@ -44,6 +46,40 @@ const projects = [
   },
   {
     id: 3,
+    proje: "Twitter Clone Website",
+    aciklama: "Developed with Next.js",
+    konular: ["vite","responsive design"],
+    linkler: [
+      {
+        linkIsim: "View Site",
+        site: "https://twitter-clone123.vercel.app/",
+      },
+      {
+        linkIsim: "Github",
+        site: "https://github.com/onurdzd/TwitterClone-Full-Stack",
+      },
+    ],
+    imageLink: twitter1,
+  },
+  {
+    id: 4,
+    proje: "Twitter Backend With Node Js",
+    aciklama: "Developed with Node.js",
+    konular: ["node.js","express.js","Rest Api's"],
+    linkler: [
+      {
+        linkIsim: "View Site",
+        site: "https://github.com/onurdzd/Twitter-Backend",
+      },
+      {
+        linkIsim: "Github",
+        site: "https://github.com/onurdzd/Twitter-Backend",
+      },
+    ],
+    imageLink: twitter2,
+  },
+  {
+    id: 5,
     proje: "Phone Trailing System",
     aciklama: "Developed with .NET Windows Form Application",
     konular: [".Net","C#","Sqlite"],
@@ -60,7 +96,7 @@ const projects = [
     imageLink: mcellKapak,
   },
   {
-    id: 4,
+    id: 6,
     proje: "Stock News with API",
     aciklama: "Search stocks for Up-to-date stock news",
     konular: ["react","node.js","express.js","api"],
@@ -77,7 +113,7 @@ const projects = [
     imageLink: stock,
   },
   {
-    id: 5,
+    id: 7,
     proje: "Pizza Order ",
     aciklama: "Pizza order website with React components.",
     konular: ["react", "Responsive Design"],
@@ -94,7 +130,7 @@ const projects = [
     imageLink: pizzaProject,
   },
   {
-    id: 6,
+    id: 8,
     proje: "TV Series Watch List with API",
     aciklama: "Create watch list via site.",
     konular: ["react", "api" , "Responsive Design"],
@@ -111,7 +147,7 @@ const projects = [
     imageLink: proje2,
   },
   {
-    id: 7,
+    id: 9,
     proje: "Chat GPT with API",
     aciklama: "Chat GPT request website with API.",
     konular: ["react","node.js","express.js","api"],
