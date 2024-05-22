@@ -40,9 +40,9 @@ function scrollToTop() {
             <Header />
           </header>
           <main>
-            <Skills />
-            <Profile />
             <Projects />
+            <Profile />
+            <Skills />
           </main>
           <footer>
             <Footer />

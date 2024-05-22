@@ -13,8 +13,8 @@ const projects = [
   {
     id: 1,
     proje: "A Yoga Brand Website",
-    aciklama: "Developed with Next.js",
-    konular: ["next.js","Mongodb","typescript","responsive design"],
+    aciklama: "Company website & customer information web service",
+    konular: ["next.js","Mongodb","typescript","express.js"],
     linkler: [
       {
         linkIsim: "View Site",
@@ -24,14 +24,18 @@ const projects = [
         linkIsim: "Github",
         site: "https://github.com/onurdzd/veiyg",
       },
+      {
+        linkIsim: "Github(BE)",
+        site: "https://github.com/onurdzd/veibackend",
+      },
     ],
     imageLink: yogaBlog,
   },
   {
     id: 2,
     proje: "Twitter Clone Website",
-    aciklama: "Developed with Next.js",
-    konular: ["vite","responsive design"],
+    aciklama: "Educational Clone Twitter with Mock-up & MongoDb",
+    konular: ["vite","asp .net","mongodb","mock-up"],
     linkler: [
       {
         linkIsim: "View Site",
@@ -40,6 +44,10 @@ const projects = [
       {
         linkIsim: "Github",
         site: "https://github.com/onurdzd/TwitterClone-Full-Stack",
+      },
+      {
+        linkIsim: "Github(BE)",
+        site: "https://github.com/onurdzd/TwitterMongoDb",
       },
     ],
     imageLink: twitter1,
