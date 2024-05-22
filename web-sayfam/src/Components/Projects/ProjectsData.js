@@ -12,26 +12,9 @@ import twitter2 from "../../images/twitter2.jpg"
 const projects = [
   {
     id: 1,
-    proje: "AFFAN Psychosocial Support Project",
-    aciklama: "Voluntary project for individuals that affect by earthquake in Turkiye",
-    konular: ["vite.js","sqlite","node.js","express.js"],
-    linkler: [
-      {
-        linkIsim: "View Site",
-        site: "https://depremdanismafrontend.onrender.com/",
-      },
-      {
-        linkIsim: "Github",
-        site: "https://github.com/onurdzd/DepremDanisma",
-      },
-    ],
-    imageLink: affan,
-  },
-   {
-    id: 2,
     proje: "A Yoga Brand Website",
     aciklama: "Developed with Next.js",
-    konular: ["next.js","responsive design","typescript"],
+    konular: ["next.js","Mongodb","typescript","responsive design"],
     linkler: [
       {
         linkIsim: "View Site",
@@ -45,7 +28,7 @@ const projects = [
     imageLink: yogaBlog,
   },
   {
-    id: 3,
+    id: 2,
     proje: "Twitter Clone Website",
     aciklama: "Developed with Next.js",
     konular: ["vite","responsive design"],
@@ -60,6 +43,23 @@ const projects = [
       },
     ],
     imageLink: twitter1,
+  },
+  {
+    id: 3,
+    proje: "AFFAN Psychosocial Support Project",
+    aciklama: "Voluntary project for individuals that affect by earthquake in Turkiye",
+    konular: ["vite.js","sqlite","node.js","express.js"],
+    linkler: [
+      {
+        linkIsim: "View Site",
+        site: "https://depremdanismafrontend.onrender.com/",
+      },
+      {
+        linkIsim: "Github",
+        site: "https://github.com/onurdzd/DepremDanisma",
+      },
+    ],
+    imageLink: affan,
   },
   {
     id: 4,
