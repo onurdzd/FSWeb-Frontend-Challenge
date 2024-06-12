@@ -10,8 +10,8 @@ import "./Skills.css"
 const Skills = () => {
   return (
     <div id="skills" className="skills container">
+        <h1>Software Skills</h1>
       <div className="skills-box-1">
-        <h1>Skills</h1>
       </div>
       <div className="skills-box-2">
         <div className="skills-box-logos">

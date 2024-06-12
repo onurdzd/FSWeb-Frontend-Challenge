@@ -10,12 +10,10 @@ const Header = () => {
       <div className="header-box container">
         <div className="header-box-1 ">
           <div className="header-box-1-text">
-            <h2>Onur Erk</h2>
             <div>
-              <h1>I am a Full Stack Developer</h1>
+            <h2>Onur Erk</h2>
               <p>
-                ...who likes to craft solid and scalable products with
-                great user experiences.
+                 Financial Expert & Software Solutions Specialist
               </p>
               <div className="header-box-1-button">
                   <button

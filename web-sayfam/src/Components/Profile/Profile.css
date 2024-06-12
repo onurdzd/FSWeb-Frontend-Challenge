@@ -17,6 +17,9 @@
 .profile-box {
   display: flex;
   padding-bottom: 10%;
+  padding-top: 3%;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .profile-box-container {
@@ -72,10 +75,10 @@
 }
 
 .profile-box-2 img {
-  border-radius: 3rem;
+  border-radius: 2rem;
   padding-right: 1.5rem;
   max-width: 300px;
-  max-height: 350px;
+  max-height: 300px;
 }
 
 .profile-box-3 p {
