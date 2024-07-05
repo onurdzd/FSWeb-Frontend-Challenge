@@ -9,7 +9,6 @@ const Profile = () => {
         <h1>Profile</h1>
         <div className="profile-box">
           <div className="profile-box-1 profile-box-container">
-            <h2>About</h2>
             <div className="profile-box-1-detay">
               <p>Birth-Year</p>
               <span>1991</span>

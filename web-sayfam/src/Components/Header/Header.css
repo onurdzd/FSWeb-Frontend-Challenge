@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-top: 4rem;
 }
 
 .header-box-1 {
@@ -146,6 +147,10 @@
 }
 
 @media screen and (max-width: 380px) {
+
+  .header-box-1{
+    margin-top: 5rem;
+  }
 
   .header-box-1 p {
     line-height: 2rem;

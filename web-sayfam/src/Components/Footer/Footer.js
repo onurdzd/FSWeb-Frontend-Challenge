@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="footer-container">
         <h1>Contact me</h1>
         <p>
-          Contact me with following mail 
+        You can reach me at the following email:
         </p>
         <a href="mailto:onurerkdizdar@gmail.com">onurerkdizdar@gmail.com</a>
         {/* <div className="footer-iletisim">

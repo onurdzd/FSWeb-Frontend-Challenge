@@ -1,75 +1,126 @@
-.main{
-    min-height: 50px;
+/* Navbar Genel Stil */
+.navbar {
+    font-family: 'Inter', sans-serif;
+    background-color: #5236db; /* Navbar arka plan rengi */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: fixed; /* Scroll sırasında navbar'ın sabit kalmasını sağlar */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease; /* Geçiş animasyonu */
+  }
+  
+  .navbar-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: x-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 90%;
+    align-items: flex-start;
+    max-width: 1200px;
     margin: 0 auto;
-    font-weight: bold;
-}
-
-a{
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Logo yüksekliği */
     cursor: pointer;
-    padding: 5px;
-    text-decoration: none;
-}
-
-a:hover{
-    background-color:#3822b1;
-    color: #ffffff;
-}
-
-a:last-child:hover{
-    background-color:#ffffff;
-    color: #3822b1;
-}
-
-a:last-child{
-    border:1px solid black;
-    background-color: #3822b1 ;
-    color: #fbf4f4;
-}
-
-.navbar{
+    transition: transform 0.3s ease; /* Hover animasyonu */
+  }
+  
+  .navbar-logo img:hover {
+    transform: scale(1.1);
+  }
+  
+  .navbar-links {
     display: flex;
-    justify-content: space-between;
-}
-
-@media (width< 1024px) {
-    .main{
-        min-height: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: large;
-        width: 90%;
+    gap: 2rem;
+  }
+  
+  .navbar-link {
+    color: #ffffff; /* Yazı rengi */
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ffdd57; /* Hover efekti */
+    background-color: rgba(255, 221, 87, 0.1); /* Arka plan hover efekti */
+  }
+  
+  .navbar-link:active,
+  .navbar-link:focus {
+    color: #ffdd57; /* Aktif ve fokus efekti */
+    outline: none;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 0.3rem;
+    cursor: pointer;
+  }
+  
+  .navbar-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hamburger Menü Animasyonları */
+  .navbar-toggle .rotate {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .navbar-toggle .fade {
+    opacity: 0;
+  }
+  
+  .navbar-toggle .rotate-reverse {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
+  
+  @media (max-width: 860px) {
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #5236db;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: max-height 0.3s ease;
     }
-}
-
-@media (width< 1024px) {
-    .main{
-        min-height: 40px;
-        font-size: large;
-        width: 90%;
+  
+    .navbar-links.active {
+      display: flex;
+      max-height: 300px; /* Geçiş animasyonu için max-height */
     }
-}
-
-@media (width< 640px) {
-    .main{
-        min-height: 30px;
-        font-size: medium;
-        width: 95%;
+  
+    .navbar-link {
+      text-align: center;
+      padding: 1rem;
+      width: 100%;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
     }
-}
-
-@media (width< 365px) {
-    a{
-        padding: 3px;
+  
+    .navbar-toggle {
+      display: flex;
     }
-    .main{
-        min-height: 25px;
-        font-size: 9px;
+  }
+  
+  /* Mobil Cihazlar İçin Stil */
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 0.5rem 1rem;
     }
-}
+  
+    .navbar-link {
+      font-size: 1.4rem;
+    }
+  }
+  

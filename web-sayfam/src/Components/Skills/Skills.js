@@ -5,41 +5,32 @@ import figmaLogo from "../../images/figma.svg";
 import vsLogo from "../../images/vscodes.svg";
 import reactLogo from "../../images/react.svg";
 import reduxLogo from "../../images/redux.svg";
-import "./Skills.css"
+import "./Skills.css";
+
+const skillsData = [
+  { logo: jsLogo, name: "JavaScript" },
+  { logo: nodeLogo, name: "Node.js" },
+  { logo: figmaLogo, name: "Figma" },
+  { logo: reactLogo, name: "React" },
+  { logo: vsLogo, name: "VS Code" },
+  { logo: reduxLogo, name: "Redux" },
+];
 
 const Skills = () => {
   return (
-    <div id="skills" className="skills container">
+    <section id="skills" className="skills">
+      <div className="skills-container">
         <h1>Software Skills</h1>
-      <div className="skills-box-1">
-      </div>
-      <div className="skills-box-2">
-        <div className="skills-box-logos">
-          <img src={jsLogo} alt="logo"></img>
-          <h2>JAVASCRIPT</h2>
-        </div>
-        <div className="skills-box-logos">
-          <img src={nodeLogo} width="auto" alt="logo"></img>
-          <h2>NODE</h2>
-        </div>
-        <div className="skills-box-logos">
-          <img src={figmaLogo} alt="logo"></img>
-          <h2>FIGMA</h2>
-        </div>
-        <div className="skills-box-logos">
-          <img src={reactLogo} alt="logo"></img>
-          <h2>REACT</h2>
-        </div>
-        <div className="skills-box-logos">
-          <img src={vsLogo} alt="logo"></img>
-          <h2>VS CODE</h2>
-        </div>
-        <div className="skills-box-logos">
-          <img src={reduxLogo} alt="logo"></img>
-          <h2>REDUX</h2>
+        <div className="skills-grid">
+          {skillsData.map((skill, index) => (
+            <div className="skill-card" key={index}>
+              <img src={skill.logo} alt={`${skill.name} logo`} className="skill-logo" />
+              <h2>{skill.name}</h2>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

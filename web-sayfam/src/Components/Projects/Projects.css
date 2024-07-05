@@ -9,13 +9,13 @@
 
 .projects h1 {
     font-weight: 700;
-    font-size: 4.8rem;
-    line-height: 100%;
-    letter-spacing: 0.01em;
+    font-size: 3.6rem; /* Adjusted font size for a balanced look */
+    line-height: 120%; /* Increased line height for better readability */
+    letter-spacing: 0.02em; /* Slightly increased letter spacing */
     color: #4832D3;
-    padding-top: 8.75%;
+    padding-top: 5%;
     padding-bottom: 1rem;
-}
+  }
 
 .projects-scroll {
     max-height: 600px;
@@ -45,11 +45,15 @@
 
 .projects-box {
     display: flex;
-    background-color: #FFFFFF;
+    background-color: #f9f9f9;
     border-radius: 1rem;
     margin-bottom: 3.6rem;
     margin-top: 2.8%;
     overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Gölge ekleyerek kart görünümünü güçlendirmek */
+    transition: transform 0.3s ease;
+    /* Hover efekti için */
 }
 
 .projects-box-img {

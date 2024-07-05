@@ -13,7 +13,7 @@ const Header = () => {
             <div>
             <h2>Onur Erk</h2>
               <p>
-                 Financial Expert & Software Solutions Specialist
+                 Financial Expert | Software Solutions Specialist
               </p>
               <div className="header-box-1-button">
                   <button
